@@ -22,3 +22,8 @@ pod "TWAlertView"
 ## License
 
 TWAlertView is available under the MIT license. See the LICENSE file for more info.
+
+## Todo
+
+- Ability to add multiple buttons with callbacks
+- Support action sheet style
