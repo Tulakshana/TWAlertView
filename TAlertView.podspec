@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'TAlertView'
-  s.version          = '0.2.0'
+  s.name             = 'TWAlertView'
+  s.version          = '0.1.0'
   s.summary          = 'A simple pod which could be used to show an alert in your iOS app'
 
 # This description is used to generate tags and improve search results.
@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'This pod is inspired by UIAlertController. TAlertView will automatically recognise the top most view controller to display the alert, making showing a simple alert a hazzel free task.'
+  s.description      = 'This pod is inspired by UIAlertController. TWAlertView will automatically recognise the top most view controller to display the alert, making showing a simple alert a hazzel free task.'
 
-  s.homepage         = 'https://github.com/Tulakshana/TAlertView'
+  s.homepage         = 'https://github.com/Tulakshana/TWAlertView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tulakshana' => 'tula_post@yahoo.com' }
-  s.source           = { :git => 'https://github.com/Tulakshana/TAlertView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Tulakshana/TWAlertView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
