@@ -1,9 +1,9 @@
-# TAlertView
+# TWAlertView
 
-[![CI Status](http://img.shields.io/travis/Tulakshana/TAlertView.svg?style=flat)](https://travis-ci.org/Tulakshana/TAlertView)
-[![Version](https://img.shields.io/cocoapods/v/TAlertView.svg?style=flat)](http://cocoapods.org/pods/TAlertView)
-[![License](https://img.shields.io/cocoapods/l/TAlertView.svg?style=flat)](http://cocoapods.org/pods/TAlertView)
-[![Platform](https://img.shields.io/cocoapods/p/TAlertView.svg?style=flat)](http://cocoapods.org/pods/TAlertView)
+[![CI Status](http://img.shields.io/travis/Tulakshana/TWAlertView.svg?style=flat)](https://travis-ci.org/Tulakshana/TWAlertView)
+[![Version](https://img.shields.io/cocoapods/v/TWAlertView.svg?style=flat)](http://cocoapods.org/pods/TWAlertView)
+[![License](https://img.shields.io/cocoapods/l/TWAlertView.svg?style=flat)](http://cocoapods.org/pods/TWAlertView)
+[![Platform](https://img.shields.io/cocoapods/p/TWAlertView.svg?style=flat)](http://cocoapods.org/pods/TWAlertView)
 
 ## Example
 
@@ -11,13 +11,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-TAlertView is available through [CocoaPods](http://cocoapods.org). To install
+TWAlertView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TAlertView"
+pod "TWAlertView"
 ```
 
 ## License
 
-TAlertView is available under the MIT license. See the LICENSE file for more info.
+TWAlertView is available under the MIT license. See the LICENSE file for more info.
