@@ -4,9 +4,11 @@
 [![License](https://img.shields.io/cocoapods/l/TWAlertView.svg?style=flat)](http://cocoapods.org/pods/TWAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/TWAlertView.svg?style=flat)](http://cocoapods.org/pods/TWAlertView)
 
-## Example
+## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```objc
+[TWAlertView showAlert:@"Hello" message:@"Your message goes here..." callback:nil];
+```
 
 ## Installation
 
