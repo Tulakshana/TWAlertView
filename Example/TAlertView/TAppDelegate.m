@@ -8,7 +8,7 @@
 
 #import "TAppDelegate.h"
 
-#import "TAlertView.h"
+#import "TWAlertView.h"
 
 @implementation TAppDelegate
 
@@ -16,7 +16,7 @@
 {
     // Override point for customization after application launch.
     
-    [TAlertView showAlert:@"Hello" message:@"Your message goes here..." callback:^(NSError *error) {
+    [TWAlertView showAlert:@"Hello" message:@"Your message goes here..." callback:^(NSError *error) {
         if (error) {
             NSLog(@"%@",error.localizedDescription);
         }

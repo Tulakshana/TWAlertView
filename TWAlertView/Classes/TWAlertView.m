@@ -1,12 +1,12 @@
 //
-//  TAlertView.m
-//  TAlertView
+//  TWAlertView.m
+//  TWAlertView
 //
 //  Created by Tulakshana Weerasooriya on 6/24/16.
-//  Copyright © 2016 tulakshana. All rights reserved.
+//  Copyright © 2016 tulakshanaw. All rights reserved.
 //
 
-#import "TAlertView.h"
+#import "TWAlertView.h"
 
 @interface UIViewController (RMSViewController)
 
@@ -42,7 +42,8 @@
 
 @end
 
-@implementation TAlertView
+
+@implementation TWAlertView
 
 + (void)topViewControllerWithCallback:(void(^)(UIViewController *vc))callback;
 {

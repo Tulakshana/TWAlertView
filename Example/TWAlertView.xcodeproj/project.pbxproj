@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5311FED21D1D154E00D1EA24 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5311FED11D1D154E00D1EA24 /* Launch Screen.storyboard */; };
-		5311FED51D1D190500D1EA24 /* TAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311FED41D1D190500D1EA24 /* TAlertView.m */; };
+		5311FEDB1D1D291400D1EA24 /* TWAlertView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5311FEDA1D1D291400D1EA24 /* TWAlertView.podspec */; };
+		5311FEDE1D1D29B600D1EA24 /* TWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5311FEDD1D1D29B600D1EA24 /* TWAlertView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,25 +37,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D6820B27E08C07332541F7C /* TAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TAlertView.podspec; path = ../TAlertView.podspec; sourceTree = "<group>"; };
 		5311FED11D1D154E00D1EA24 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		5311FED31D1D190500D1EA24 /* TAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAlertView.h; path = ../TAlertView/Classes/TAlertView.h; sourceTree = "<group>"; };
-		5311FED41D1D190500D1EA24 /* TAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAlertView.m; path = ../TAlertView/Classes/TAlertView.m; sourceTree = "<group>"; };
+		5311FEDA1D1D291400D1EA24 /* TWAlertView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TWAlertView.podspec; path = ../TWAlertView.podspec; sourceTree = "<group>"; };
+		5311FEDC1D1D29B600D1EA24 /* TWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWAlertView.h; path = ../TWAlertView/Classes/TWAlertView.h; sourceTree = "<group>"; };
+		5311FEDD1D1D29B600D1EA24 /* TWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TWAlertView.m; path = ../TWAlertView/Classes/TWAlertView.m; sourceTree = "<group>"; };
 		5D31A4849128976FE3B773DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* TAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* TWAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* TAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAlertView-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* TWAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWAlertView-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* TAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TAlertView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* TAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* TAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* TViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* TViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* TAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* TWAlertView_Example.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWAlertView_Example.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		5311FED61D1D191700D1EA24 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5311FED31D1D190500D1EA24 /* TAlertView.h */,
-				5311FED41D1D190500D1EA24 /* TAlertView.m */,
+				5311FEDC1D1D29B600D1EA24 /* TWAlertView.h */,
+				5311FEDD1D1D29B600D1EA24 /* TWAlertView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -112,8 +112,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* TAlertView_Example.app */,
-				6003F5AE195388D20070C39A /* TAlertView_Tests.xctest */,
+				6003F58A195388D20070C39A /* TWAlertView_Example.app */,
+				6003F5AE195388D20070C39A /* TWAlertView_Example.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,10 +148,9 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* TAlertView-Info.plist */,
+				6003F595195388D20070C39A /* TWAlertView-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* TAlertView-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,7 +177,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4D6820B27E08C07332541F7C /* TAlertView.podspec */,
+				5311FEDA1D1D291400D1EA24 /* TWAlertView.podspec */,
 				5D31A4849128976FE3B773DE /* README.md */,
 				8C0AC599CD548FA95EE348C9 /* LICENSE */,
 			);
@@ -188,9 +187,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* TAlertView_Example */ = {
+		6003F589195388D20070C39A /* TWAlertView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TAlertView_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TWAlertView_Example" */;
 			buildPhases = (
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
@@ -200,14 +199,14 @@
 			);
 			dependencies = (
 			);
-			name = TAlertView_Example;
+			name = TWAlertView_Example;
 			productName = TAlertView;
-			productReference = 6003F58A195388D20070C39A /* TAlertView_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* TWAlertView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* TAlertView_Tests */ = {
+		6003F5AD195388D20070C39A /* TWAlertView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TAlertView_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TWAlertView_Tests" */;
 			buildPhases = (
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
@@ -218,9 +217,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = TAlertView_Tests;
+			name = TWAlertView_Tests;
 			productName = TAlertViewTests;
-			productReference = 6003F5AE195388D20070C39A /* TAlertView_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* TWAlertView_Example.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -241,7 +240,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "TAlertView" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "TWAlertView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,8 +253,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* TAlertView_Example */,
-				6003F5AD195388D20070C39A /* TAlertView_Tests */,
+				6003F589195388D20070C39A /* TWAlertView_Example */,
+				6003F5AD195388D20070C39A /* TWAlertView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5311FEDB1D1D291400D1EA24 /* TWAlertView.podspec in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				5311FED21D1D154E00D1EA24 /* Launch Screen.storyboard in Resources */,
@@ -288,8 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TAppDelegate.m in Sources */,
+				5311FEDE1D1D29B600D1EA24 /* TWAlertView.m in Sources */,
 				6003F5A7195388D20070C39A /* TViewController.m in Sources */,
-				5311FED51D1D190500D1EA24 /* TAlertView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* TAlertView_Example */;
+			target = 6003F589195388D20070C39A /* TWAlertView_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,11 +413,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TAlertView/TAlertView-Prefix.pch";
-				INFOPLIST_FILE = "TAlertView/TAlertView-Info.plist";
+				GCC_PREFIX_HEADER = "TAlertView/TWAlertView-Prefix.pch";
+				INFOPLIST_FILE = "TAlertView/TWAlertView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TWAlertView_Example;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -432,11 +432,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TAlertView/TAlertView-Prefix.pch";
-				INFOPLIST_FILE = "TAlertView/TAlertView-Info.plist";
+				GCC_PREFIX_HEADER = "TAlertView/TWAlertView-Prefix.pch";
+				INFOPLIST_FILE = "TAlertView/TWAlertView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TWAlertView_Example;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -460,8 +460,8 @@
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAlertView_Example.app/TAlertView_Example";
+				PRODUCT_NAME = TWAlertView_Example;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWAlertView_Example.app/TWAlertView_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -479,8 +479,8 @@
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAlertView_Example.app/TAlertView_Example";
+				PRODUCT_NAME = TWAlertView_Example;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWAlertView_Example.app/TWAlertView_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -488,7 +488,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "TAlertView" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "TWAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -497,7 +497,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TAlertView_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "TWAlertView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -506,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TAlertView_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "TWAlertView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

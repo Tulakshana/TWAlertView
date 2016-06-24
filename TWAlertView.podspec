@@ -28,10 +28,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TAlertView/Classes/**/*'
+  s.source_files = 'TWAlertView/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'TAlertView' => ['TAlertView/Assets/*.png']
+  #   'TWAlertView' => ['TWAlertView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

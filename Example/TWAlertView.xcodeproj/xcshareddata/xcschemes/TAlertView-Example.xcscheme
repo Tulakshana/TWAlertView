@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "TAlertView_Example.app"
-               BlueprintName = "TAlertView_Example"
-               ReferencedContainer = "container:TAlertView.xcodeproj">
+               BuildableName = "TWAlertView_Example.app"
+               BlueprintName = "TWAlertView_Example"
+               ReferencedContainer = "container:TWAlertView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "TAlertView_Tests.xctest"
-               BlueprintName = "TAlertView_Tests"
-               ReferencedContainer = "container:TAlertView.xcodeproj">
+               BuildableName = "TWAlertView_Example.xctest"
+               BlueprintName = "TWAlertView_Tests"
+               ReferencedContainer = "container:TWAlertView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "TAlertView_Example.app"
-            BlueprintName = "TAlertView_Example"
-            ReferencedContainer = "container:TAlertView.xcodeproj">
+            BuildableName = "TWAlertView_Example.app"
+            BlueprintName = "TWAlertView_Example"
+            ReferencedContainer = "container:TWAlertView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "TAlertView_Example.app"
-            BlueprintName = "TAlertView_Example"
-            ReferencedContainer = "container:TAlertView.xcodeproj">
+            BuildableName = "TWAlertView_Example.app"
+            BlueprintName = "TWAlertView_Example"
+            ReferencedContainer = "container:TWAlertView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "TAlertView_Example.app"
-            BlueprintName = "TAlertView_Example"
-            ReferencedContainer = "container:TAlertView.xcodeproj">
+            BuildableName = "TWAlertView_Example.app"
+            BlueprintName = "TWAlertView_Example"
+            ReferencedContainer = "container:TWAlertView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
