@@ -16,9 +16,20 @@
 {
     // Override point for customization after application launch.
     
-    [TWAlertView showAlert:@"Hello" message:@"Your message goes here..." callback:^(NSError *error) {
+    [TWAlertView showAlert:@"Hello" message:@"What do you like to do today?" buttonsArray:[NSArray arrayWithObjects:@"Socialise",@"Code", nil] callback:^(NSError *error, int buttonIndex) {
         if (error) {
-            NSLog(@"%@",error.localizedDescription);
+            NSLog(@"%@",error.debugDescription);
+        }else{
+            switch (buttonIndex) {
+                case 0:
+                    [self socialise];
+                    break;
+                case 1:
+                    [self code];
+                    break;
+                default:
+                    break;
+            }
         }
     }];
 
@@ -52,5 +63,17 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+#pragma mark - 
+
+- (void)socialise{
+    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to comprise your valuable time?"];
+}
+
+- (void)code{
+    [TWAlertView showAlert:@"Nice!" message:@"Good choice buddy"];
+}
+
 
 @end

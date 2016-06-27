@@ -3,7 +3,7 @@
 //  TWAlertView
 //
 //  Created by Tulakshana Weerasooriya on 6/24/16.
-//  Copyright © 2016 tulakshanaw. All rights reserved.
+//  Copyright © 2016 tulakshana. All rights reserved.
 //
 
 #import "TWAlertView.h"
@@ -53,22 +53,45 @@
     });
 }
 
-+ (void)showAlert:(NSString *)title message:(NSString *)message callback:(void(^)(NSError *error))callback{
++ (void)showAlert:(NSString *)title message:(NSString *)message{
+    
+    [self showAlert:title message:message buttonsArray:nil callback:^(NSError *error, int buttonIndex) {
+        if (error) {
+            NSLog(@"%@",error.debugDescription);
+        }
+    }];
+    
+}
+
++ (void)showAlert:(NSString *)title message:(NSString *)message buttonsArray:(NSArray<NSString *> *)buttonsArray callback:(void(^)(NSError *error,int buttonIndex))callback{
     
     [self topViewControllerWithCallback:^(UIViewController *vc) {
         if (vc == nil) {
-            callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. No UIViewController available to present",message]]);
+            callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. No UIViewController available to present",message]],-1);
         }else if ([vc isKindOfClass:[UIAlertController class]]) {
-            callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. Another UIAlertController is already presented",message]]);
+            callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. Another UIAlertController is already presented",message]],-1);
         }else {
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-            UIAlertAction *action = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil];
-            [alert addAction:action];
+            
+            if (buttonsArray) {
+                for (int i = 0;i<[buttonsArray count];i++){
+                    UIAlertAction *action = [UIAlertAction actionWithTitle:[buttonsArray objectAtIndex:i] style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                        callback(nil,i);
+                    }];
+                    [alert addAction:action];
+                }
+            }else{
+                UIAlertAction *action = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil];
+                [alert addAction:action];
+            }
+            
+            
             [vc presentViewController:alert animated:TRUE completion:^{
-                callback(nil);
+                callback(nil,-1);
             }];
         }
     }];
+    
 }
 
 + (NSError *)alertError:(NSString *)message{
