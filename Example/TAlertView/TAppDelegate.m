@@ -68,7 +68,7 @@
 #pragma mark - 
 
 - (void)socialise{
-    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to comprise your valuable time?"];
+    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to compromise your valuable time?"];
 }
 
 - (void)code{

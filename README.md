@@ -34,7 +34,7 @@ This pod is inspired by UIAlertController. TWAlertView will automatically recogn
 }
 
 - (void)socialise{
-    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to comprise your valuable time?"];
+    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to compromise your valuable time?"];
 }
 
 - (void)code{
@@ -49,7 +49,7 @@ TWAlertView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TWAlertView"
+pod 'TWAlertView', '0.1.2'
 ```
 
 ## License
