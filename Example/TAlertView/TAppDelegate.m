@@ -68,7 +68,22 @@
 #pragma mark - 
 
 - (void)socialise{
-    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to compromise your valuable time?"];
+    [TWAlertView showAlert:@"Warning!" message:@"Are you sure you want to compromise your valuable time?" buttonsArray:[NSArray arrayWithObjects:@"Yes",@"No", nil] callback:^(NSError *error, int buttonIndex) {
+        if (error) {
+            NSLog(@"%@",error.debugDescription);
+        }else{
+            switch (buttonIndex) {
+                case 0:
+                    [TWAlertView showAlert:@"Warning!" message:@"You are now on your own."];
+                    break;
+                case 1:
+                    [self code];
+                    break;
+                default:
+                    break;
+            }
+        }
+    }];
 }
 
 - (void)code{

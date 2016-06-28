@@ -68,9 +68,11 @@
     [self topViewControllerWithCallback:^(UIViewController *vc) {
         if (vc == nil) {
             callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. No UIViewController available to present",message]],-1);
-        }else if ([vc isKindOfClass:[UIAlertController class]]) {
-            callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. Another UIAlertController is already presented",message]],-1);
-        }else {
+        }
+//        else if ([vc isKindOfClass:[UIAlertController class]]) {
+//            callback([self alertError:[NSString stringWithFormat:@"RMSAlertView cannot show message '%@'. Another UIAlertController is already presented",message]],-1);
+//        }
+        else {
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
             
             if (buttonsArray) {
