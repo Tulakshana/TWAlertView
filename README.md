@@ -49,7 +49,7 @@ TWAlertView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TWAlertView', '0.1.3'
+pod 'TWAlertView'
 ```
 
 ## License
